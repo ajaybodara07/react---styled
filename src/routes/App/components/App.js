@@ -18,7 +18,6 @@ const handleDark = () =>{
           <h1 className="title">Dark Mode Challenge</h1>
         </div>
 
-        {/* --The button that should toggle dark mode-- */}
         <button className={isDark ? "appDark__dark-mode-btn icon level-right" : "app__dark-mode-btn icon level-right"}>
           <FontAwesomeIcon icon={faMoon} onClick={() => handleDark()} />
         </button>
